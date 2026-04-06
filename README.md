@@ -1,11 +1,11 @@
-# Chatterbox Turbo SparkDeck Image
+# Chatterbox Turbo Spark AI Hub Image
 
 Thin container wrapper for running the official `resemble-ai/chatterbox` Turbo Gradio app on NVIDIA DGX Spark.
 
 Goals:
 - no modifications to Chatterbox source
 - Python 3.11 environment, matching the upstream guidance
-- prebuilt image suitable for pull-only SparkDeck installation
+- prebuilt image suitable for pull-only Spark AI Hub installation
 
 This image:
 - installs CUDA 13 compatible PyTorch wheels for ARM64
